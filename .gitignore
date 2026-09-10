@@ -1,0 +1,17 @@
+# Collected device data - serials and hardware hashes identify real
+# machines. Never commit these.
+Output/
+AutopilotHashes.csv
+AutopilotHashes.csv.tmp
+AutopilotHash_*.csv
+*.csv
+
+# Optional single-file build
+AutopilotHashCapture.exe
+*.exe
+
+# Editor / OS noise
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
