@@ -167,8 +167,3 @@ focuses on.
 
 MIT - see [LICENSE](LICENSE). Copyright (c) 2026 MrFrAnCkq.
 
-## A note on what you commit
-
-The script writes real device serials and hardware hashes into `Output/`.
-Those identify specific machines, so keep them out of the repository - the
-included `.gitignore` already excludes `Output/` and any stray `*.csv`.
