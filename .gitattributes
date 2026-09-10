@@ -1,0 +1,14 @@
+# Windows-only tooling. Batch files REQUIRE CRLF, and PowerShell 5.1 is
+# fussy about how these files come back out of a clone, so pin the endings
+# instead of letting core.autocrlf decide.
+* text=auto
+
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+*.psm1 text eol=crlf
+
+*.md   text eol=crlf
+*.csv  text eol=crlf
+
+LICENSE text eol=lf
